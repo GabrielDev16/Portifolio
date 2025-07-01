@@ -172,7 +172,12 @@ input {
   height: 30px;
   display: block;
   margin: 0 auto;
-  
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid var(--escuro);
+  background-color: var(--vidro);
+  color: var(--claro);
+  font-weight: 600;
 }
 
 footer {
