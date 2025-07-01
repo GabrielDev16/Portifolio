@@ -18,7 +18,7 @@
         </ul>
     </nav>
 
-    <main class="ConteudoP">
+    <main id="inicio" class="ConteudoP">
         <img class="logo" src="img/Perfil Teste.jpeg" alt="Foto do dono do portifolio">
         <h1>João Gabriel</h1>
         <p class="descricao">Desenvolverdor Front-End</p>
@@ -35,25 +35,36 @@
         <h2 class="titulo">Projetos</h2>
         <div class="containerProjetos">
             <div class="projeto">
-                <img class="capaProjeto" src="" alt="">
+                <img class="capaProjeto" src="img/capa teste projeto.png" alt="">
                 <h3>Projeto 1</h3>
-                <p>Descrição do projeto 1. Um projeto incrível que demonstra minhas habilidades em desenvolvimento web.</p>
+                <p class="descricaoProjeto">Descrição do projeto 1. Um projeto incrível que demonstra minhas habilidades em desenvolvimento web.</p>
             </div>
             <div class="projeto">
-                <img class="capaProjeto" src="" alt="">
+                <img class="capaProjeto" src="img/capa teste projeto.png" alt="">
                 <h3>Projeto 2</h3>
-                <p>Descrição do projeto 2. Outro projeto interessante que mostra minha capacidade de resolver problemas complexos.</p>
+                <p class="descricaoProjeto">Descrição do projeto 2. Outro projeto interessante que mostra minha capacidade de resolver problemas complexos.</p>
             </div>
             <div class="projeto">
-                <img class="capaProjeto" src="" alt="">
+                <img class="capaProjeto" src="img/capa teste projeto.png" alt="">
                 <h3>Projeto 3</h3>
-                <p>Descrição do projeto 3. Outro projeto interessante que mostra minha capacidade de resolver problemas complexos.</p>
+                <p class="descricaoProjeto">Descrição do projeto 3. Outro projeto interessante que mostra minha capacidade de resolver problemas complexos.</p>
             </div>
     </section>
 
     <section class="sectionContato" id="contato">
         <h2 class="titulo">Contato</h2>
-        
+        <div class="contatos">
+            <form>
+                <h3>Preencha o formulario de contato</h3>
+                <label for="name" class="legendaForm">Digite seu Nome:</label>
+                <input type="text" id="name" name="Nome" placeholder="Seu Nome">
+                <label for="email" class="legendaForm">Digite seu Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu Email">
+                <label for="phone" class="legendaForm">Digite seu Numero:</label>
+                <input type="tel" id="phone" name="telefone" placeholder="Seu Numero">
+                <button class="ButtonSub" type="submit">Enviar Formulario</button>
+            </form>
+        </div>
 
     </section>
 
