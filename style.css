@@ -109,7 +109,8 @@ h1,
   border: 1px solid var(--primaria);
   border-radius: 12px;
   max-width: 410px;
-  height: 340px;
+  height: 410px;
+  cursor: pointer;
 }
 
 .capaProjeto {
@@ -129,11 +130,33 @@ h3 {
 .descricaoProjeto {
   text-align: justify;
   padding: 0 10px;
+  font-weight: 600;
+}
+
+.btnLink {
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--secundaria);
+  color: var(--claro);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  
+}
+
+.linkP {
+  text-decoration: none;
+  color: var(--claro);
+  font-weight: 600;
 }
 
 .contatos {
   width: 690px;
-  height: auto;
+  height: 290px;
   background: var(--primaria);
   border-radius: 12px;
 }
@@ -165,6 +188,12 @@ input {
   height: 30px;
   border-radius: 4px;
   padding: 12px;
+  transition: 0.6s ease;
+}
+
+input:focus {
+  border: 1px solid var(--escuro);
+  box-shadow: var(--escuro) 0px 5px 6px;
 }
 
 .ButtonSub{
@@ -175,9 +204,19 @@ input {
   outline: none;
   border-radius: 7px;
   border: 1px solid var(--escuro);
-  background-color: var(--vidro);
+  background-color: var(--escuro);
   color: var(--claro);
   font-weight: 600;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+.ButtonSub:hover {
+  width: 320px;
+  height: 35px;
+  font-size: 17px;
+  color: var(--primaria);
+  box-shadow: var(--escuro) 0px 5px 12px;
 }
 
 footer {
