@@ -152,6 +152,13 @@ h3 {
   text-decoration: none;
   color: var(--claro);
   font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cardButton{
+  display: flex;
+  justify-content: end;
 }
 
 .contatos {
