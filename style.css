@@ -145,20 +145,12 @@ h3 {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.6s ease;
-  
 }
 
 .linkP {
   text-decoration: none;
   color: var(--claro);
   font-weight: 600;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.cardButton{
-  display: flex;
-  justify-content: end;
 }
 
 .contatos {
@@ -226,6 +218,28 @@ input:focus {
   box-shadow: var(--escuro) 0px 5px 12px;
 }
 
-footer {
-  background-color: red;
+.containerFooter{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  gap: 60px;
+  background-color: var(--primaria);
+  width: 100%;
+  height: 100px;
 }
+
+.redeLink {
+  text-decoration: none;
+  color: var(--claro);
+  text-align: center;
+  transition: all 0.6s ease;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.rede{
+  display: flex;
+  justify-content: center;
+}
+
